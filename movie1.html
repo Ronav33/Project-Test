@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ค้นหาหนัง</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>ค้นหาหนัง</h1>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <section class="main-section">
+        <div class="container">
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="ค้นหาหนัง..." onkeyup="searchMovies()">
+            </div>
+
+            <!-- Results Section -->
+            <div id="searchResults" class="movie-list">
+                <!-- ผลลัพธ์การค้นหาจะถูกแสดงที่นี่ -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ค้นหาหนัง. สงวนลิขสิทธิ์</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
